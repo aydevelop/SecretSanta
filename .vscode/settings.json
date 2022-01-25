@@ -1,0 +1,26 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/node_modules": true,
+        "**/.vscode": true,
+        "dist": true,
+        "tsconfig.json": true,
+        "tsconfig.build.json": true,
+        "readme.txt": true,
+        "README.md": true,
+        "package.json": true,
+        "package-lock.json": true,
+        "nest-cli.json": true,
+        ".prettierrc": true,
+        ".gitignore": true,
+        ".eslintrc.js": true,
+        "test": true,
+        "database.sqlite": true
+    },
+    "explorerExclude.backup": null
+}
