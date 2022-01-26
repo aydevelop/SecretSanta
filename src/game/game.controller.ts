@@ -6,7 +6,7 @@ export class GameController {
   constructor(private gameService: GameService) {}
 
   @Post('shuffle')
-  async shuffle() {
+  async shuffle(): Promise<string> {
     return this.gameService.shuffle();
   }
 }

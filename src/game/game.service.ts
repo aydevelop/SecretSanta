@@ -14,7 +14,7 @@ export class GameService {
     private readonly pairRepository: Repository<PairEntity>,
   ) {}
 
-  async shuffle() {
+  async shuffle(): Promise<string> {
     let usersAll: UserEntity[] = await this.userRepository.find();
     let usersLen: number = usersAll.length;
     let pairsLen: number = await this.pairRepository.count();
